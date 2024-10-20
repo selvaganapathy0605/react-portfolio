@@ -37,7 +37,7 @@ function Formvalidate() {
     const sendEmail = (e) => {
         
         emailjs
-        .sendForm('service_cq0yemi', 'template_00xkyzf', form.current, {
+        .sendForm('service_cq0yemi', 'template_prso1rc', form.current, {
             publicKey: 'Ve5XXwAlXgAZb2OHT',
         })
         .then(
@@ -54,7 +54,7 @@ function Formvalidate() {
             <div className="footer__form" data-aos="fade-up">
                 <div id="mess" onClick={CloseMess}>
                     <span><i className="ri-verified-badge-line"></i></span>
-                    <h4>Message submitted successfully!</h4>
+                    <h4>Form submitted successfully!</h4>
                     <span id="closeLine"><i className="ri-close-line"></i></span>
                 </div>
                 <form ref={form} onSubmit={handleSubmit(() => {
@@ -64,16 +64,16 @@ function Formvalidate() {
                     <div className="input__row">
                         <div className="input__box">
                             {errors?.fullname && <div className='error'>{errors.fullname.message}</div>}
-                            <input type="text" placeholder="Your Name" name='name' id="name" {...register('fullname')} />
+                            <input type="text" placeholder="Your Name" name="fullname" id="fullname" {...register('fullname')} />
                         </div>
                         <div className="input__box">
                             {errors?.email && <div className='error'>{errors.email.message}</div>}
-                            <input type="email" placeholder="Your Email" name='email' id="email" {...register('email')} />
+                            <input type="email" placeholder="Your Email" name="email" id="email" {...register('email')} />
                         </div>
                     </div>
                     <div className="input_row">
                         {errors?.message && <div className='error'>{errors.message.message}</div>}
-                        <textarea placeholder="Your Message" name='message' id="message"{...register('message')}></textarea>
+                        <textarea placeholder="Your Message" name="message" id="message"{...register('message')}></textarea>
                     </div>
                     <button className="btn btn__primary" id="button">Send Message</button>
                 </form >
