@@ -20,7 +20,7 @@ function Blog() {
                                 updates, making it easier for everyone to stay connected with what’s happening.
                             </p>
                             <div>
-                                <a href="https://github.com/selvaganapathy0605/college-symposium-project">Read More</a>
+                                <a href="https://grt-texpo-24.netlify.app/">Read More</a>
                                 <div className="blog__socials">
                                     <a href="https://github.com/selvaganapathy0605/college-symposium-project"><i className="ri-github-fill"></i></a>
                                 </div>
