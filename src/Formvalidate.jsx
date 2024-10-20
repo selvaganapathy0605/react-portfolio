@@ -54,7 +54,7 @@ function Formvalidate() {
             <div className="footer__form" data-aos="fade-up">
                 <div id="mess" onClick={CloseMess}>
                     <span><i className="ri-verified-badge-line"></i></span>
-                    <h4>Form submitted successfully!</h4>
+                    <h4>Message submitted successfully!</h4>
                     <span id="closeLine"><i className="ri-close-line"></i></span>
                 </div>
                 <form ref={form} onSubmit={handleSubmit(() => {
