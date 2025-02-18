@@ -5,7 +5,7 @@ function About() {
     return (
         <>
             <section className="section__container about__container" id="about">
-                <div className="about__image" data-aos="flip-left"
+                <div className="about__image" data-aos="zoom-in-up"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                     <img src={profile1} alt="" />
