@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import Thiruvallur from './assets/Thiruvallur.pdf'
+import resume from './assets/resume.pdf'
 
 
 function Header() {
@@ -27,7 +27,7 @@ function Header() {
                         tells a story and each interaction is a work of art.
                     </p>
                     <div className="header__btns">
-                        <a download="CV.pdf" href={Thiruvallur}><button className="btn btn__primary">Download
+                        <a download="CV.pdf" href={resume}><button className="btn btn__primary">Download
                             CV</button></a>
                         <a href="#contact"><button className="btn btn__secondary">Contact Me</button></a>
                     </div>
