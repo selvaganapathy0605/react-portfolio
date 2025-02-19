@@ -36,3 +36,5 @@ function Header() {
         </>
     )
 }
+
+export defult Header; 
