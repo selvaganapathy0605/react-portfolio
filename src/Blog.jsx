@@ -20,7 +20,7 @@ function Blog() {
                                 Online payment is also available.
                             </p>
                             <div>
-                                <a href="https://e-commerce-frontend-zrep.onrender.com/">Read More</a>
+                                <a href="https://e-commerce-frontend-zrep.onrender.com/">Preview</a>
                                 <div className="blog__socials">
                                     <a href="https://github.com/selvaganapathy0605/Campgrounds"><i
                                         className="ri-github-fill"></i></a>
@@ -38,7 +38,7 @@ function Blog() {
                                 updates, making it easier for everyone to stay connected with what’s happening.
                             </p>
                             <div>
-                                <a href="https://grt-texpo-24.netlify.app/">Read More</a>
+                                <a href="https://grt-texpo-24.netlify.app/">Preview</a>
                                 <div className="blog__socials">
                                     <a href="https://github.com/selvaganapathy0605/college-symposium-project"><i className="ri-github-fill"></i></a>
                                 </div>
@@ -54,7 +54,7 @@ function Blog() {
                                 If it is strong it tells carry on or tells change the password -"only code".
                             </p>
                             <div>
-                                <a href="https://github.com/selvaganapathy0605/password-checker">Read More</a>
+                                <a href="https://github.com/selvaganapathy0605/password-checker">Preview</a>
                                 <div className="blog__socials">
                                     <a href="https://github.com/selvaganapathy0605/password-checker"><i
                                         className="ri-github-fill"></i></a>
