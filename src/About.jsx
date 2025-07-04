@@ -1,5 +1,6 @@
 import { React, useState } from 'react'
 import profile1 from './assets/profile1.jpg'
+import selvaphoto from './assets/selva-photo.jpg'
 
 function About() {
     return (
@@ -8,7 +9,7 @@ function About() {
                 <div className="about__image" data-aos="zoom-in-up"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <img src={profile1} alt="" />
+                    <img src={selvaphoto} alt="" />
                 </div>
                 <div className="about__content" data-aos="fade-up">
                     <h4 data-aos="fade-up">Let's Introduce About Myself</h4>
