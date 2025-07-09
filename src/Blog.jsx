@@ -2,6 +2,7 @@ import React from 'react'
 import password_checker from './assets/password-checker.jpg'
 import ecommerce from './assets/e-commerce.jpeg'
 import website from './assets/website.png'
+import financeBlog from './assets/financeblog.jpg'
 
 
 function Blog() {
@@ -28,6 +29,23 @@ function Blog() {
                             </div>
                         </div>
                     </div>
+                    <div className="blog__card" data-aos="zoom-in-up">
+                        <img src={financeBlog} alt="blog" />
+                        <div className="blog__content">
+                            <h4>Financial Secret Growth</h4>
+                            <p className="section__description">
+                                Financial Growth Secret is a MERN stack-based blog platform for sharing financial insights. 
+                                It allows admins to publish blogs and connect with customers through contact and inquiry features."
+                            </p>
+                            <div>
+                                <a href="https://financialgrowthsecret.onrender.com">Preview</a>
+                                <div className="blog__socials">
+                                    <a href="https://github.com/selvaganapathy0605/financialgrowthsecret"><i
+                                        className="ri-github-fill"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="blog__card" data-aos="fade-up">
                         <img src={website} alt="blog" />
                         <div className="blog__content">
@@ -41,23 +59,6 @@ function Blog() {
                                 <a href="https://grt-texpo-24.netlify.app/">Preview</a>
                                 <div className="blog__socials">
                                     <a href="https://github.com/selvaganapathy0605/college-symposium-project"><i className="ri-github-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="blog__card" data-aos="fade-up">
-                        <img src={password_checker} alt="blog" />
-                        <div className="blog__content">
-                            <h4>Password Checker</h4>
-                            <p className="section__description">
-                                The project it takes our password and it tell us to how our password is strong.
-                                If it is strong it tells carry on or tells change the password -"only code".
-                            </p>
-                            <div>
-                                <a href="https://github.com/selvaganapathy0605/password-checker">Preview</a>
-                                <div className="blog__socials">
-                                    <a href="https://github.com/selvaganapathy0605/password-checker"><i
-                                        className="ri-github-fill"></i></a>
                                 </div>
                             </div>
                         </div>
